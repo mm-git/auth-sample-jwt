@@ -1,0 +1,15 @@
+.DS_Store
+dist/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+vendor/
+src/keys
+docker/api/api

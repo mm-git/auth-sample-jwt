@@ -1,0 +1,21 @@
+scalar Time
+
+enum TodoStatus {
+  notYet
+  done
+}
+
+type Todo {
+  id: ID!
+  title: String!
+  status: TodoStatus!
+  createAt: Time!
+}
+
+type Query {
+  todoList: [Todo!]!
+}
+
+schema {
+    query: Query
+}

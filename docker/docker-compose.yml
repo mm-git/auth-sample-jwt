@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  api:
+    image: auth-sample-jwt:latest
+    container_name: auth-sample-jwt
+    ports:
+    - "8888:8888"
+    volumes:
+    - ./keys/:/keys/
+    restart: always
+
