@@ -243,11 +243,15 @@
   analyzer-version = 1
   input-imports = [
     "github.com/99designs/gqlgen/cmd",
+    "github.com/99designs/gqlgen/graphql",
+    "github.com/99designs/gqlgen/graphql/introspection",
     "github.com/99designs/gqlgen/handler",
     "github.com/dgrijalva/jwt-go",
     "github.com/labstack/echo",
     "github.com/labstack/echo/middleware",
     "github.com/satori/go.uuid",
+    "github.com/vektah/gqlparser",
+    "github.com/vektah/gqlparser/ast",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
