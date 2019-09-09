@@ -15,13 +15,13 @@ func (r *queryResolver) TodoList(ctx context.Context) ([]*Todo, error) {
 		{
 			ID:       "00001",
 			Title:    "大根を買う",
-			Status:   "notYes",
+			Status:   "notYet",
 			CreateAt: dummyTime,
 		},
 		{
 			ID:       "00002",
 			Title:    "郵便局に行く",
-			Status:   "notYes",
+			Status:   "notYet",
 			CreateAt: dummyTime,
 		},
 		{
