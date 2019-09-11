@@ -10,9 +10,9 @@ import (
 const (
 	Issuer            = "auth-sample-jwt"
 	AccessToken       = "AccessToken"
-	AccessExpireTime  = time.Second * 20
+	AccessExpireTime  = time.Second * 15
 	RefreshToken      = "RefreshToken"
-	RefreshExpireTime = time.Second * 60
+	RefreshExpireTime = time.Second * 20
 )
 
 type CustomClaims struct {
